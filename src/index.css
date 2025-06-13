@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Tambahkan di file CSS Anda, misal: src/index.css */
+.react-calendar {
+  font-size: 3.5rem;      /* Perbesar font */
+  width: 1300px !important;           /* Perbesar lebar kalender */
+  max-width: 100%;
+  height: 780px !important; 
+}
