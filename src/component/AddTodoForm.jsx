@@ -7,6 +7,7 @@ const AddTodoForm = (props) => {
     description: "",
     // ga boleh null
     date: props.selectedDate ? props.selectedDate.toDateString() : new Date().toDateString(),
+    checked: false,
   });
 
   useEffect(() =>{
@@ -44,11 +45,11 @@ const AddTodoForm = (props) => {
   };
 
   //console.log("Name : " + todo.name);
-  console.log("select : " + props.selectedDate.toDateString());
-  console.log("Todo date: " + todo.date);
-  if (props.editingTodo){
-     console.log("setEditing name: " + props.editingTodo.name);
-  }
+  // console.log("select : " + props.selectedDate.toDateString());
+  // console.log("Todo date: " + todo.date);
+  // if (props.editingTodo){
+  //    console.log("setEditing name: " + props.editingTodo.name);
+  // }
   // console.log("Description :" + todo.description);
   return (
     <div>
